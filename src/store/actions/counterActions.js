@@ -1,9 +1,9 @@
-import * as ActionTypes from '../actions/counterActionsTypes';
+import * as ActionTypes from './counterActionsTypes'
 
 export const increment = {
     type: ActionTypes.INCREMENT
-};
+}
 
 export const decrement = {
     type: ActionTypes.DECREMENT
-};
+}
