@@ -2,15 +2,16 @@ import { createReducer } from 'redux-create-reducer'
 import * as ActionTypes from '../actions/counterActionsTypes'
 
 const initialState = 0
-
-export const counterReducer = createReducer(
+const counterReducer = createReducer(
     initialState,
     {
-        [ActionTypes.INCREMENT] : (state) => {
+        [ActionTypes.INCREMENT]: (state) => {
             return state + 1
         },
-        [ActionTypes.DECREMENT] : (state) => {
+        [ActionTypes.DECREMENT]: (state) => {
             return state - 1
         }
     }
 )
+
+export default counterReducer

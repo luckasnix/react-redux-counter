@@ -1,14 +1,14 @@
 import React from 'react'
 import { Provider } from 'react-redux'
-import { store } from './store/store'
-import Counter from './components/Counter'
+import store from './store/store'
+import CounterPage from './pages/CounterPage'
 
 function App() {
     return (
         <Provider store={store}>
-            <Counter/>
+            <CounterPage/>
         </Provider>
-    );
+    )
 }
 
 export default App
