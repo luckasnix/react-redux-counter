@@ -1,8 +1,8 @@
 import * as ActionTypes from './counterActionsTypes'
 
 export const increment = {
-    type: ActionTypes.INCREMENT
+  type: ActionTypes.INCREMENT
 }
 export const decrement = {
-    type: ActionTypes.DECREMENT
+  type: ActionTypes.DECREMENT
 }
